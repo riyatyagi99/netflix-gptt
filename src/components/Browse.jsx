@@ -11,13 +11,13 @@ import SecondaryContainer from "./SecondaryContainer";
 const Browse = () => {
   
   useNowPlayingMovies();
-  //usePopularMovies();
+  usePopularMovies();
 
   return (
     <div>
       <Header/>
           <MainContainer />
-          {/* <SecondaryContainer /> */}
+          <SecondaryContainer />
 
     </div>
   )
