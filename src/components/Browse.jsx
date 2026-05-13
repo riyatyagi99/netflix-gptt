@@ -2,7 +2,10 @@ import React from 'react'
 import Header from './Header';
 //import usePopularMovies from "../hooks/usePopularMovies";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
-
+import MainContainer from "./MainContainer";
+import SecondaryContainer from "./SecondaryContainer";
+// import GptSearch from "./GptSearch";
+// import { useSelector } from "react-redux";
 
 
 const Browse = () => {
@@ -13,6 +16,9 @@ const Browse = () => {
   return (
     <div>
       <Header/>
+          <MainContainer />
+          {/* <SecondaryContainer /> */}
+
     </div>
   )
 }
